@@ -2,22 +2,19 @@
 using namespace std;
 int main(){
 
-int ano, mes, dia, anoAtual, idadeAnos, idadeDias;
+int ano, mes, dia, totalDias;
 
-cout << "qual o ano atual?\n";
-cin >> anoAtual;
-cout << "qual a sua data de nascimento?\n";
+cout << "digite sua idade em anos\n";
+cin >> ano;
+cout << "digite em dias\n";
 cout <<"dia\n";
 cin >> dia;
-cout << "mes\n";
+cout << "digite em meses\n";
 cin >> mes;
-cout << "ano\n";
-cin >> ano;
 
-idadeAnos = anoAtual - ano;
-idadeDias = idadeAnos * 365;
+totalDias = (ano*365) + (mes*30) + dias;
 
-cout << "seu tempo em dias eh " << idadeDias;
+cout << "seu tempo em dias eh " << totalDias;
 
 
 
